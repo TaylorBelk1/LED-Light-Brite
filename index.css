@@ -7,6 +7,17 @@ body {
     margin: 0 auto;
 }
 
+.tabs {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: #2A2D34;
+}
+
+.tabs h3 {
+    padding-right: 20px;
+}
+
 .color-options {
     display: flex;
     justify-content: space-between;
