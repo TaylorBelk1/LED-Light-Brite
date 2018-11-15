@@ -9,14 +9,21 @@
     <script src="main.js"></script>
 </head>
 <body>
+
+
+
     <div class="wrapper">
+
+
+        <!---NAVIGATION TABS-->
             <div class="tab-container">
                 <div class="tabs">
-                        <h1>Draw</h1>
-                        <h1>Text</h1>
-                        <h1>Memes</h1>
+                        <h1 class="tabs-link tabs-link-selected" data-tab="1">Draw</h1>
+                        <h1 class="tabs-link" data-tab="2">Text</h1>
+                        <h1 class="tabs-link" data-tab="3">Memes</h1>
                 </div>
             </div>
+
         <div class="color-options">
             <h2>Red</h2>
             <h2>Blue</h2>
@@ -30,7 +37,7 @@
 
         <!--START OF DOT ROWS-->
         <!--Row 1-->
-        <div class="grid-container">
+        <div class="grid-container tabs-item tabs-item-selected" data-tab= "1">
                 <div class="row" data-box='1'>
                         <div class="box"></div>
                         <div class="box"></div>
@@ -2087,6 +2094,13 @@
                         <div class="box"></div>
                         <div class="box"></div>
                 </div>
+        </div>
+
+        <div class="text-box-wrapper" data-tab="2">
+                <form>
+                        <input type="text" name="grid-text" value="Enter what you want the Light-Bright to say....">
+                        <input type="submit" value="Submit">
+                </form>
         </div>
 </div>
 

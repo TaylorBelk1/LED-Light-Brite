@@ -34,3 +34,7 @@ body {
     display: inline-block;
     margin: 0.03vw;
   }
+
+  .tabs-link-selected {
+      display: none;
+  }
