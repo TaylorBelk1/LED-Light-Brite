@@ -12,13 +12,14 @@ body {
     justify-content: space-between;
     text-decoration: underline;
     color: #2A2D34;
+    padding: 10px;
 }
 
 .box {
     background-color: #2A2D34;
-    height: 2.2vw;
-    width: 2.2vw;
-    border-radius: 2.2vw;
+    height: .6vw;
+    width: .6vw;
+    border-radius: .6vw;
     display: inline-block;
-    margin: 0.1vw;
+    margin: 0.03vw;
   }
