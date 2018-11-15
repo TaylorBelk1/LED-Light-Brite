@@ -1,0 +1,24 @@
+body {
+    background-color: black; 
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.color-options {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: #2A2D34;
+}
+
+.box {
+    background-color: #2A2D34;
+    height: 2.2vw;
+    width: 2.2vw;
+    border-radius: 2.2vw;
+    display: inline-block;
+    margin: 0.1vw;
+  }
